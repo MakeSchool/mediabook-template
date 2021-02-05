@@ -1,12 +1,12 @@
-# Class - Assignment Title 
+# Class - Assignment Title
 
-## Description 
+## Description
 
 A short description of your assignment
 
 ### Why this assignment?
 
-A short description that hits home as to why this assignment is important to do. 
+A short description that hits home as to why this assignment is important to do.
 
 ## Project requirements
 
@@ -14,18 +14,16 @@ Describe the requirements of this assignment.
 
 ### Deliverable
 
-Describe what is due, file, type, link to repo etc. 
+Describe what is due, file, type, link to repo etc.
 
 ### Due date
 
 Date this project is due
 
-## What is this assignment 
+## What is this assignment
 
-Detailed description... 
+Detailed description...
 
 ## Assessing the assignment
 
 [Assignment Name Rubric](./assignment-rubric.md)
-
-

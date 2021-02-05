@@ -9,9 +9,9 @@
  * 3. This window proceeds to send the current presentation state
  *    to the notes window
  */
-var RevealNotes = (function() {
+const RevealNotes = (function() {
 
-    var notesPopup = null;
+    let notesPopup = null;
 
 	function openNotes( notesFilePath ) {
 
@@ -21,9 +21,9 @@ var RevealNotes = (function() {
         }
 
 		if( !notesFilePath ) {
-			var jsFileLocation = document.querySelector('script[src$="notes.js"]').src;  // this js file path
+			let jsFileLocation = document.querySelector('script[src$="notes.js"]').src;  // this js file path
 			jsFileLocation = jsFileLocation.replace(/notes\.js(\?.*)?$/, '');   // the js folder path
-			notesFilePath = jsFileLocation + 'notes.html';
+			notesFilePath = `${jsFileLocation  }notes.html`;
 		}
 
 		notesPopup = window.open( notesFilePath, 'reveal.js - Notes', 'width=1100,height=700' );
@@ -41,17 +41,17 @@ var RevealNotes = (function() {
 		 */
 		function connect() {
 			// Keep trying to connect until we get a 'connected' message back
-			var connectInterval = setInterval( function() {
+			const connectInterval = setInterval( () => {
 				notesPopup.postMessage( JSON.stringify( {
 					namespace: 'reveal-notes',
 					type: 'connect',
-					url: window.location.protocol + '//' + window.location.host + window.location.pathname + window.location.search,
+					url: `${window.location.protocol  }//${  window.location.host  }${window.location.pathname  }${window.location.search}`,
 					state: Reveal.getState()
 				} ), '*' );
 			}, 500 );
 
-			window.addEventListener( 'message', function( event ) {
-				var data = JSON.parse( event.data );
+			window.addEventListener( 'message', ( event ) => {
+				const data = JSON.parse( event.data );
 				if( data && data.namespace === 'reveal-notes' && data.type === 'connected' ) {
 					clearInterval( connectInterval );
 					onConnected();
@@ -68,12 +68,12 @@ var RevealNotes = (function() {
 		 */
 		function callRevealApi( methodName, methodArguments, callId ) {
 
-			var result = Reveal[methodName].apply( Reveal, methodArguments );
+			const result = Reveal[methodName].apply( Reveal, methodArguments );
 			notesPopup.postMessage( JSON.stringify( {
 				namespace: 'reveal-notes',
 				type: 'return',
-				result: result,
-				callId: callId
+				result,
+				callId
 			} ), '*' );
 
 		}
@@ -83,11 +83,11 @@ var RevealNotes = (function() {
 		 */
 		function post( event ) {
 
-			var slideElement = Reveal.getCurrentSlide(),
-				notesElement = slideElement.querySelector( 'aside.notes' ),
-				fragmentElement = slideElement.querySelector( '.current-fragment' );
+			const slideElement = Reveal.getCurrentSlide();
+				let notesElement = slideElement.querySelector( 'aside.notes' );
+				const fragmentElement = slideElement.querySelector( '.current-fragment' );
 
-			var messageData = {
+			const messageData = {
 				namespace: 'reveal-notes',
 				type: 'state',
 				notes: '',
@@ -104,7 +104,7 @@ var RevealNotes = (function() {
 
 			// Look for notes defined in a fragment
 			if( fragmentElement ) {
-				var fragmentNotes = fragmentElement.querySelector( 'aside.notes' );
+				const fragmentNotes = fragmentElement.querySelector( 'aside.notes' );
 				if( fragmentNotes ) {
 					notesElement = fragmentNotes;
 				}
@@ -152,7 +152,7 @@ var RevealNotes = (function() {
 	}
 
 	return {
-		init: function() {
+		init() {
 
 			if( !/receiver/i.test( window.location.search ) ) {
 
@@ -162,7 +162,7 @@ var RevealNotes = (function() {
 				}
 
 				// Open the notes when the 's' key is hit
-				Reveal.addKeyBinding({keyCode: 83, key: 'S', description: 'Speaker notes view'}, function() {
+				Reveal.addKeyBinding({keyCode: 83, key: 'S', description: 'Speaker notes view'}, () => {
 					openNotes();
 				} );
 

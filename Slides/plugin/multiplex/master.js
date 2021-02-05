@@ -3,13 +3,13 @@
 	// Don't emit events from inside of notes windows
 	if ( window.location.search.match( /receiver/gi ) ) { return; }
 
-	var multiplex = Reveal.getConfig().multiplex;
+	const {multiplex} = Reveal.getConfig();
 
-	var socket = io.connect( multiplex.url );
+	const socket = io.connect( multiplex.url );
 
 	function post() {
 
-		var messageData = {
+		const messageData = {
 			state: Reveal.getState(),
 			secret: multiplex.secret,
 			socketId: multiplex.id

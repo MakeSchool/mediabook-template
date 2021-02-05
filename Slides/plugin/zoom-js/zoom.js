@@ -1,14 +1,14 @@
 // Custom reveal.js integration
-var RevealZoom = (function(){
+const RevealZoom = (function(){
 
 	return {
-		init: function() {
+		init() {
 
-			Reveal.getRevealElement().addEventListener( 'mousedown', function( event ) {
-				var defaultModifier = /Linux/.test( window.navigator.platform ) ? 'ctrl' : 'alt';
+			Reveal.getRevealElement().addEventListener( 'mousedown', ( event ) => {
+				const defaultModifier = /Linux/.test( window.navigator.platform ) ? 'ctrl' : 'alt';
 
-				var modifier = ( Reveal.getConfig().zoomKey ? Reveal.getConfig().zoomKey : defaultModifier ) + 'Key';
-				var zoomLevel = ( Reveal.getConfig().zoomLevel ? Reveal.getConfig().zoomLevel : 2 );
+				const modifier = `${Reveal.getConfig().zoomKey ? Reveal.getConfig().zoomKey : defaultModifier   }Key`;
+				const zoomLevel = ( Reveal.getConfig().zoomLevel ? Reveal.getConfig().zoomLevel : 2 );
 
 				if( event[ modifier ] && !Reveal.isOverview() ) {
 					event.preventDefault();
@@ -39,18 +39,18 @@ Reveal.registerPlugin( 'zoom', RevealZoom );
 var zoom = (function(){
 
 	// The current zoom level (scale)
-	var level = 1;
+	let level = 1;
 
 	// The current mouse position, used for panning
-	var mouseX = 0,
-		mouseY = 0;
+	let mouseX = 0;
+		let mouseY = 0;
 
 	// Timeout before pan is activated
-	var panEngageTimeout = -1,
-		panUpdateInterval = -1;
+	let panEngageTimeout = -1;
+		let panUpdateInterval = -1;
 
 	// Check for transform support so that we can fallback otherwise
-	var supportsTransforms = 	'WebkitTransform' in document.body.style ||
+	const supportsTransforms = 	'WebkitTransform' in document.body.style ||
 								'MozTransform' in document.body.style ||
 								'msTransform' in document.body.style ||
 								'OTransform' in document.body.style ||
@@ -66,14 +66,14 @@ var zoom = (function(){
 	}
 
 	// Zoom out if the user hits escape
-	document.addEventListener( 'keyup', function( event ) {
+	document.addEventListener( 'keyup', ( event ) => {
 		if( level !== 1 && event.keyCode === 27 ) {
 			zoom.out();
 		}
 	} );
 
 	// Monitor mouse movement for panning
-	document.addEventListener( 'mousemove', function( event ) {
+	document.addEventListener( 'mousemove', ( event ) => {
 		if( level !== 1 ) {
 			mouseX = event.clientX;
 			mouseY = event.clientY;
@@ -89,7 +89,7 @@ var zoom = (function(){
 	 */
 	function magnify( rect, scale ) {
 
-		var scrollOffset = getScrollOffset();
+		const scrollOffset = getScrollOffset();
 
 		// Ensure a width/height is set
 		rect.width = rect.width || 1;
@@ -110,8 +110,8 @@ var zoom = (function(){
 			}
 			// Scale
 			else {
-				var origin = scrollOffset.x +'px '+ scrollOffset.y +'px',
-					transform = 'translate('+ -rect.x +'px,'+ -rect.y +'px) scale('+ scale +')';
+				const origin = `${scrollOffset.x }px ${ scrollOffset.y }px`;
+					const transform = `translate(${ -rect.x }px,${ -rect.y }px) scale(${ scale })`;
 
 				document.body.style.transformOrigin = origin;
 				document.body.style.OTransformOrigin = origin;
@@ -139,10 +139,10 @@ var zoom = (function(){
 			// Scale
 			else {
 				document.body.style.position = 'relative';
-				document.body.style.left = ( - ( scrollOffset.x + rect.x ) / scale ) + 'px';
-				document.body.style.top = ( - ( scrollOffset.y + rect.y ) / scale ) + 'px';
-				document.body.style.width = ( scale * 100 ) + '%';
-				document.body.style.height = ( scale * 100 ) + '%';
+				document.body.style.left = `${- ( scrollOffset.x + rect.x ) / scale   }px`;
+				document.body.style.top = `${- ( scrollOffset.y + rect.y ) / scale   }px`;
+				document.body.style.width = `${scale * 100   }%`;
+				document.body.style.height = `${scale * 100   }%`;
 				document.body.style.zoom = scale;
 			}
 		}
@@ -164,10 +164,10 @@ var zoom = (function(){
 	 * of the window.
 	 */
 	function pan() {
-		var range = 0.12,
-			rangeX = window.innerWidth * range,
-			rangeY = window.innerHeight * range,
-			scrollOffset = getScrollOffset();
+		const range = 0.12;
+			const rangeX = window.innerWidth * range;
+			const rangeY = window.innerHeight * range;
+			const scrollOffset = getScrollOffset();
 
 		// Up
 		if( mouseY < rangeY ) {
@@ -206,7 +206,7 @@ var zoom = (function(){
 		 *   - width/height: the portion of the screen to zoom in on
 		 *   - scale: can be used instead of width/height to explicitly set scale
 		 */
-		to: function( options ) {
+		to( options ) {
 
 			// Due to an implementation limitation we can't zoom in
 			// to another element without zooming out first
@@ -218,10 +218,10 @@ var zoom = (function(){
 				options.y = options.y || 0;
 
 				// If an element is set, that takes precedence
-				if( !!options.element ) {
+				if( options.element ) {
 					// Space around the zoomed in element to leave on screen
-					var padding = 20;
-					var bounds = options.element.getBoundingClientRect();
+					const padding = 20;
+					const bounds = options.element.getBoundingClientRect();
 
 					options.x = bounds.left - padding;
 					options.y = bounds.top - padding;
@@ -244,7 +244,7 @@ var zoom = (function(){
 
 						// Wait with engaging panning as it may conflict with the
 						// zoom transition
-						panEngageTimeout = setTimeout( function() {
+						panEngageTimeout = setTimeout( () => {
 							panUpdateInterval = setInterval( pan, 1000 / 60 );
 						}, 800 );
 
@@ -256,7 +256,7 @@ var zoom = (function(){
 		/**
 		 * Resets the document zoom state to its default.
 		 */
-		out: function() {
+		out() {
 			clearTimeout( panEngageTimeout );
 			clearInterval( panUpdateInterval );
 
@@ -266,10 +266,10 @@ var zoom = (function(){
 		},
 
 		// Alias
-		magnify: function( options ) { this.to( options ) },
-		reset: function() { this.out() },
+		magnify( options ) { this.to( options ) },
+		reset() { this.out() },
 
-		zoomLevel: function() {
+		zoomLevel() {
 			return level;
 		}
 	}

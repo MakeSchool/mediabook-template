@@ -1,5 +1,7 @@
-*  **[Syllabus](README.md)**
-- **Lessons**
+- **[Syllabus](README.md)**
+
+* **Lessons**
+
   - [The Adventure Begins](Lessons/adventure_begins.md)
   - [Variables](Lessons/variables.md)
   - [Data Types and Operations](Lessons/datatypes_operations.md)
@@ -15,17 +17,18 @@
   - [File IO](Lessons/file_io.md)
   - [Dictionaries](Lessons/dictionaries.md)
   - [Code Quality](Lessons/code_quality.md)
-  
-- **Assignments**
+
+* **Assignments**
+
   - [Custom Calculator](Lessons/custom_calculator.md)
   - [Chat Bot](Lessons/chat_bot.md)
   - [Poetry Slam](Lessons/poetry_slam.md)
-  
-- **Quiz Study Guides**
+
+* **Quiz Study Guides**
   - [Quiz 1](Lessons/quiz1.md)
   - [Quiz 2](Lessons/quiz2.md)
   - [Quiz 3](Lessons/quiz3.md)
 
-* [Gradescope](https://www.gradescope.com/courses/201367)
+- [Gradescope](https://www.gradescope.com/courses/201367)
 
-* [Make School](https://www.makeschool.com)
+- [Make School](https://www.makeschool.com)

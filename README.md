@@ -1,8 +1,13 @@
+---
+path: "/syllabus"
+title: "CS 1.0 Introduction to Programming"
+---
+
 # CS 1.0 Introduction to Programming
 
 ## Course Description
 
-This course covers the fundamentals of programming including variables, data types, conditionals, control flow, loops, lists, file input and output, and functions. Students will learn software development skills including writing pseudocode, drawing flowchart diagrams, problem solving, and debugging. 
+This course covers the fundamentals of programming including variables, data types, conditionals, control flow, loops, lists, file input and output, and functions. Students will learn software development skills including writing pseudocode, drawing flowchart diagrams, problem solving, and debugging.
 
 ## Prerequisites
 
@@ -30,56 +35,49 @@ By the end of the course, you will be able to ...
 
 **Class Times:** Monday and Wednesday at 9:30am–12:15pm PST (13 class sessions)
 
+| Class |    Date     |                 Topics                 |                                                                         Assignments & Quizzes <br/> Release Dates                                                                          |
+| :---: | :---------: | :------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+|   1   | Wed, Oct 21 |  [The Adventure Begins] & [Variables]  |
+|   2   | Mon, Oct 26 |      [Data Types and Operations]       |
+|   3   | Wed, Oct 28 |           [Print] & [Input]            | Custom Calculator <br/> [Project Prompt](Lessons/custom_calculator.md) • [Gradescope](https://www.gradescope.com/courses/201367/assignments/768668) <br/> due Wednesday, Nov. 4 @ 11pm PDT |
+|   -   | Mon, Nov 2  | **Vote! - Civic Responsibility Break** |
+|   4   | Wed, Nov 4  |              [Functions]               |                                                                  [Functions Tutorial] <br/> due Sunday, Nov. 8 @ 11pm PDT                                                                  |
+|   5   | Mon, Nov 9  |             [Conditionals]             |                                                                       [Quiz 1] <br/> due Friday, Nov. 13 @ 11pm PDT                                                                        |
+|   6   | Wed, Nov 11 |         [Pseudocode] & [Lists]         |
+|   7   | Mon, Nov 16 |                [Loops]                 |                                                              [Lists and Loops Tutorial] <br/> due Friday, Nov. 20 @ 11pm PDT                                                               |
+|   8   | Wed, Nov 18 |     [Reading Errors] & [Debugging]     |                                                                       [Quiz 2] <br/> due Sunday, Nov. 22 @ 11pm PDT                                                                        |
+|   9   | Mon, Nov 23 |               [File I/O]               |           Chat Bot <br/> [Project Prompt](Lessons/chat_bot.md) • [Gradescope](https://www.gradescope.com/courses/201367/assignments/768688) <br/> due Tuesday, Dec. 1 @ 11pm PDT           |
+|   -   | Wed, Nov 25 |       **Holiday - Thanksgiving**       |
+|  10   | Mon, Nov 30 |             [Dictionaries]             |        Poetry Slam <br/> [Project Prompt](Lessons/poetry_slam.md) • [Gradescope](https://www.gradescope.com/courses/201367/assignments/768689) <br/> due Tuesday, Dec. 8 @ 11pm PDT        |
+|  11   | Wed, Dec 2  |             [Code Quality]             |
+|  12   | Mon, Dec 7  |           [Problem Solving]            |
+|  13   | Wed, Dec 9  |                  Lab                   |
 
-
-| Class |          Date          |                 Topics                  |    Assignments & Quizzes <br/> Release Dates    |
-|:-----:|:----------------------:|:---------------------------------------:|:-----------------------------------------------:|
-|  1    |  Wed, Oct 21           | [The Adventure Begins] & [Variables]    | 
-|  2    |  Mon, Oct 26           | [Data Types and Operations]             |
-|  3    |  Wed, Oct 28           | [Print] & [Input]                       | Custom Calculator <br/> [Project Prompt](Lessons/custom_calculator.md) • [Gradescope](https://www.gradescope.com/courses/201367/assignments/768668) <br/> due Wednesday, Nov. 4 @ 11pm PDT
-|  -    |  Mon, Nov 2            | **Vote! - Civic Responsibility Break**  | 
-|  4    |  Wed, Nov 4            | [Functions]                             | [Functions Tutorial] <br/> due Sunday, Nov. 8 @ 11pm PDT
-|  5    |  Mon, Nov 9            | [Conditionals]                          | [Quiz 1] <br/> due Friday, Nov. 13 @ 11pm PDT
-|  6    |  Wed, Nov 11           | [Pseudocode] & [Lists]                  |
-|  7    |  Mon, Nov 16           | [Loops]                                 | [Lists and Loops Tutorial] <br/> due Friday, Nov. 20 @ 11pm PDT
-|  8    |  Wed, Nov 18           | [Reading Errors] & [Debugging]          | [Quiz 2] <br/> due Sunday, Nov. 22 @ 11pm PDT
-|  9    |  Mon, Nov 23           | [File I/O]                              | Chat Bot <br/> [Project Prompt](Lessons/chat_bot.md) • [Gradescope](https://www.gradescope.com/courses/201367/assignments/768688) <br/> due Tuesday, Dec. 1 @ 11pm PDT
-|  -    |  Wed, Nov 25           |  **Holiday - Thanksgiving**             | 
-| 10    |  Mon, Nov 30           | [Dictionaries]                          | Poetry Slam <br/> [Project Prompt](Lessons/poetry_slam.md) • [Gradescope](https://www.gradescope.com/courses/201367/assignments/768689) <br/> due Tuesday, Dec. 8 @ 11pm PDT
-| 11    |  Wed, Dec 2            | [Code Quality]                          | 
-| 12    |  Mon, Dec 7            | [Problem Solving]                       | 
-| 13    |  Wed, Dec 9            | Lab                                     |
-
-
-[The Adventure Begins]: Lessons/adventure_begins.md
-[Variables]: Lessons/variables.md
-[Data Types and Operations]: Lessons/datatypes_operations.md
-[Print]: Lessons/print.md
-[Input]: Lessons/input.md
-[Functions]: Lessons/functions.md
-[Reading Errors]: Lessons/reading_errors.md
-[Conditionals]: Lessons/conditionals.md
-[Pseudocode]: Lessons/pseudocode.md
-[Lists]: Lessons/lists.md
-[Loops]: Lessons/loops.md
-[Debugging]: Lessons/debugging.md
-[File I/O]: Lessons/file_io.md
-[Dictionaries]: Lessons/dictionaries.md
-[Code Quality]: Lessons/code_quality.md
-[Problem Solving]: Lessons/problem_solving.md
-
-
-[Functions Tutorial]: https://www.gradescope.com/courses/201367/assignments/769069
-[Lists and Loops Tutorial]: https://www.gradescope.com/courses/201367/assignments/769103
-
-
-[Quiz 1]: https://www.gradescope.com/courses/201367/assignments/769102
-[Quiz 2]: https://www.gradescope.com/courses/201367/assignments/769104
-[Quiz 3]: https://www.gradescope.com/courses/201367/assignments/769105
+[the adventure begins]: Lessons/adventure_begins.md
+[variables]: Lessons/variables.md
+[data types and operations]: Lessons/datatypes_operations.md
+[print]: Lessons/print.md
+[input]: Lessons/input.md
+[functions]: Lessons/functions.md
+[reading errors]: Lessons/reading_errors.md
+[conditionals]: Lessons/conditionals.md
+[pseudocode]: Lessons/pseudocode.md
+[lists]: Lessons/lists.md
+[loops]: Lessons/loops.md
+[debugging]: Lessons/debugging.md
+[file i/o]: Lessons/file_io.md
+[dictionaries]: Lessons/dictionaries.md
+[code quality]: Lessons/code_quality.md
+[problem solving]: Lessons/problem_solving.md
+[functions tutorial]: https://www.gradescope.com/courses/201367/assignments/769069
+[lists and loops tutorial]: https://www.gradescope.com/courses/201367/assignments/769103
+[quiz 1]: https://www.gradescope.com/courses/201367/assignments/769102
+[quiz 2]: https://www.gradescope.com/courses/201367/assignments/769104
+[quiz 3]: https://www.gradescope.com/courses/201367/assignments/769105
 
 ## Assignment Submissions
 
-We will be using [Gradescope](gradescope.com), which allows us to provide fast and accurate feedback on your work. *All assigned work will be submitted through Gradescope, and assignment and exam grades will be returned through Gradescope.*
+We will be using [Gradescope](gradescope.com), which allows us to provide fast and accurate feedback on your work. _All assigned work will be submitted through Gradescope, and assignment and exam grades will be returned through Gradescope._
 
 As soon as grades are posted, you will be notified immediately so that you can log in and see your feedback. You may also submit regrade requests if you feel we have made a mistake.
 
@@ -89,15 +87,15 @@ Your Gradescope login is your Make School email, and your password can be change
 
 To pass this course you must meet the following requirements:
 
-- Pass all quizzes with a score 70% or higher. 
+- Pass all quizzes with a score 70% or higher.
 - Pass all required assignments with a 70% or higher.
 - All assignments are graded according to the associated assignment rubric.
 - If an assignment or quiz is not passing, you will need to request to receive a retake/extension to bring you score up to passing.
 - Actively participate in class and abide by the attendance policy.
 - Make up all classwork from all absences.
 
-
 ## How to Get Help
+
 **Office Hours:** \
 Instructors: 30 minutes before class.\
 TAs: To be announced.
@@ -108,9 +106,9 @@ The best way to get answers is to ask questions! Ask questions on Piazza so ever
 
 **CoWork:** \
 CoWork is a place to study with your peers with access to staff/TA support if needed. \
-*Tuesdays @ 12:45-1:45pm PST & Thursdays @ 1:30-2:30pm PST*
+_Tuesdays @ 12:45-1:45pm PST & Thursdays @ 1:30-2:30pm PST_
 
-##  Information Resources
+## Information Resources
 
 Any additional resources you may need (online books, etc.) can be found here. You can also find additional resources through the library linked below:
 

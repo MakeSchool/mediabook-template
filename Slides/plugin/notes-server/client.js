@@ -3,25 +3,25 @@
 	// don't emit events from inside the previews themselves
 	if( window.location.search.match( /receiver/gi ) ) { return; }
 
-	var socket = io.connect( window.location.origin ),
-		socketId = Math.random().toString().slice( 2 );
+	const socket = io.connect( window.location.origin );
+		const socketId = Math.random().toString().slice( 2 );
 
-	console.log( 'View slide notes at ' + window.location.origin + '/notes/' + socketId );
+	console.log( `View slide notes at ${  window.location.origin  }/notes/${  socketId}` );
 
-	window.open( window.location.origin + '/notes/' + socketId, 'notes-' + socketId );
+	window.open( `${window.location.origin  }/notes/${  socketId}`, `notes-${  socketId}` );
 
 	/**
 	 * Posts the current slide data to the notes window
 	 */
 	function post() {
 
-		var slideElement = Reveal.getCurrentSlide(),
-			notesElement = slideElement.querySelector( 'aside.notes' );
+		const slideElement = Reveal.getCurrentSlide();
+			const notesElement = slideElement.querySelector( 'aside.notes' );
 
-		var messageData = {
+		const messageData = {
 			notes: '',
 			markdown: false,
-			socketId: socketId,
+			socketId,
 			state: Reveal.getState()
 		};
 
@@ -41,12 +41,12 @@
 	}
 
 	// When a new notes window connects, post our current state
-	socket.on( 'new-subscriber', function( data ) {
+	socket.on( 'new-subscriber', ( data ) => {
 		post();
 	} );
 
 	// When the state changes from inside of the speaker view
-	socket.on( 'statechanged-speaker', function( data ) {
+	socket.on( 'statechanged-speaker', ( data ) => {
 		Reveal.setState( data.state );
 	} );
 

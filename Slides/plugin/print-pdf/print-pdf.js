@@ -10,13 +10,13 @@
  */
 
 // html2pdf.js
-var system = require( 'system' );
+const system = require( 'system' );
 
-var probePage = new WebPage();
-var printPage = new WebPage();
+const probePage = new WebPage();
+const printPage = new WebPage();
 
-var inputFile = system.args[1] || 'index.html?print-pdf';
-var outputFile = system.args[2] || 'slides.pdf';
+const inputFile = system.args[1] || 'index.html?print-pdf';
+let outputFile = system.args[2] || 'slides.pdf';
 
 if( outputFile.match( /\.pdf$/gi ) === null ) {
 	outputFile += '.pdf';
@@ -24,13 +24,11 @@ if( outputFile.match( /\.pdf$/gi ) === null ) {
 
 console.log( 'Export PDF: Reading reveal.js config [1/4]' );
 
-probePage.open( inputFile, function( status ) {
+probePage.open( inputFile, ( status ) => {
 
 	console.log( 'Export PDF: Preparing print layout [2/4]' );
 
-	var config = probePage.evaluate( function() {
-		return Reveal.getConfig();
-	} );
+	const config = probePage.evaluate( () => Reveal.getConfig() );
 
 	if( config ) {
 
@@ -40,9 +38,9 @@ probePage.open( inputFile, function( status ) {
 			border: 0
 		};
 
-		printPage.open( inputFile, function( status ) {
+		printPage.open( inputFile, ( status ) => {
 			console.log( 'Export PDF: Preparing pdf [3/4]')
-			printPage.evaluate( function() {
+			printPage.evaluate( () => {
 				Reveal.isReady() ? window.callPhantom() : Reveal.addEventListener( 'pdf-ready', window.callPhantom );
 			} );
 		} );
@@ -50,7 +48,7 @@ probePage.open( inputFile, function( status ) {
 		printPage.onCallback = function( data ) {
 			// For some reason we need to "jump the queue" for syntax highlighting to work.
 			// See: http://stackoverflow.com/a/3580132/129269
-			setTimeout( function() {
+			setTimeout( () => {
 				console.log( 'Export PDF: Writing file [4/4]' );
 				printPage.render( outputFile );
 				console.log( 'Export PDF: Finished successfully!' );

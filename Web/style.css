@@ -31,11 +31,11 @@
   --code-tab-size: 2;
 }
 
-.sidebar>h1 {
+.sidebar > h1 {
   margin: 2.3rem auto 1rem;
 }
 
-.sidebar>h1>a>img {
+.sidebar > h1 > a > img {
   height: auto;
 }
 
@@ -48,16 +48,16 @@
   padding-bottom: 3px;
 }
 
-.sidebar-nav>ul:nth-child(1)>li>a.section-link,
-.sidebar-nav>ul:nth-child(1)>li>ul.children>li>a.section-link {
+.sidebar-nav > ul:nth-child(1) > li > a.section-link,
+.sidebar-nav > ul:nth-child(1) > li > ul.children > li > a.section-link {
   display: block;
 }
 
-#main>h1:nth-child(1) {
+#main > h1:nth-child(1) {
   display: none;
 }
 
-#main>h1:nth-child(1)[id] {
+#main > h1:nth-child(1)[id] {
   display: block;
 }
 
@@ -89,7 +89,7 @@ body .docsify-copy-code-button {
   position: absolute;
   word-wrap: normal;
   color: #ccc;
-  font-size: .7rem;
+  font-size: 0.7rem;
   font-weight: 700;
   left: 0;
   height: 25px;
@@ -98,17 +98,18 @@ body .docsify-copy-code-button {
 }
 
 body .docsify-copy-code-button.success {
-  color: #11A31B;
+  color: #11a31b;
 }
 
-body .docsify-copy-code-button::after {}
+body .docsify-copy-code-button::after {
+}
 
 .app-name-link img {
   height: 150px;
   width: 150px;
 }
 
-table>tbody>tr>td::before {
+table > tbody > tr > td::before {
   display: none;
 }
 

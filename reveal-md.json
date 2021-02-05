@@ -5,11 +5,8 @@
   "watch": true,
   "title": "Syllabus Template Slides",
   "static": "Slides",
-  "scripts": [
-  ],
+  "scripts": [],
   "assetsDir": "assets",
   "staticDirs": "Lessons/Images",
-  "css": [
-      "Reveal/makeschool.css"
-  ]
+  "css": ["Reveal/makeschool.css"]
 }

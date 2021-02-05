@@ -51,4 +51,5 @@ $ reveal-md Lessons/ --static Slides
 ```
 
 ## Resources
+
 For more information, check out the [reveal-md documentation](https://github.com/webpro/reveal-md).
