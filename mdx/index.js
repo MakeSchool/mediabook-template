@@ -4,7 +4,7 @@ export const modules = [{
   pages: [{
     id: 'Syllabus',
     title: 'Syllabus',
-    href: '/Syllabus/Syllabus',
+    href: '/Syllabus',
   }],
 }, {
   id: 'module-1',
@@ -12,31 +12,31 @@ export const modules = [{
   pages: [{
     id: 'Assessment',
     title: 'Assessment',
-    href: '/Course/Module-1/Assessment',
+    href: '/Module-1/Assessment',
   }, {
     id: 'CheckForUnderstanding',
     title: 'Check For Understanding',
-    href: '/Course/Module-1/CheckForUnderstanding',
+    href: '/Module-1/CheckForUnderstanding',
   }, {
     id: 'Exercise',
     title: 'Exercise',
-    href: '/Course/Module-1/Exercise',
+    href: '/Module-1/Exercise',
   }, {
     id: 'Project',
     title: 'Project',
-    href: '/Course/Module-1/Project',
+    href: '/Module-1/Project',
   }, {
     id: 'Slides',
     title: 'Slides',
-    href: '/Course/Module-1/Slides',
+    href: '/Module-1/Slides',
   }, {
     id: 'TextContent',
-    title: 'TextContent',
-    href: '/Course/Module-1/TextContent',
+    title: 'Text Content',
+    href: '/Module-1/TextContent',
   }, {
     id: 'VideoContent',
-    title: 'VideoContent',
-    href: '/Course/Module-1/VideoContent',
+    title: 'Video Content',
+    href: '/Module-1/VideoContent',
   }],
 }, {
   id: 'module-2',
@@ -44,10 +44,10 @@ export const modules = [{
   pages: [{
     id: 'Adventure',
     title: 'Adventure Begins',
-    href: '/Course/Module-2/adventure_begins',
+    href: '/Module-2/adventure_begins',
   }, {
     id: 'ChatBot',
     title: 'Chat Bot',
-    href: '/Course/Module-2/chat_bot',
+    href: '/Module-2/chat_bot',
   }],
 }];
