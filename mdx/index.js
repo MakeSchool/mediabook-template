@@ -1,12 +1,4 @@
 export const modules = [{
-  id: 'syllabus',
-  title: 'Syllabus',
-  pages: [{
-    id: 'Syllabus',
-    title: 'Syllabus',
-    href: '/Syllabus',
-  }],
-}, {
   id: 'module-1',
   title: 'Module 1',
   pages: [{
