@@ -1,5 +1,5 @@
 export const modules = [{
-  id: 'module-1',
+  id: 'Module-1',
   title: 'Module 1',
   pages: [{
     id: 'Assessment',
@@ -31,7 +31,7 @@ export const modules = [{
     href: '/Module-1/VideoContent',
   }],
 }, {
-  id: 'module-2',
+  id: 'Module-2',
   title: 'Module 2',
   pages: [{
     id: 'Adventure',
