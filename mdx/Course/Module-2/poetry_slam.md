@@ -1,3 +1,9 @@
+---
+title: "Poetry Slam Project"
+repo: "MakeSchool/mediabook-template"
+contentType: "TextContent"
+---
+
 # Poetry Slam 📜
 
 ## Description

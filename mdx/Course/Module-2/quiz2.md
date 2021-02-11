@@ -1,3 +1,9 @@
+---
+title: "Quiz 2"
+repo: "MakeSchool/mediabook-template"
+contentType: "TextContent"
+---
+
 # Quiz 2 Study Guide
 
 - Boolean expressions

@@ -1,3 +1,9 @@
+---
+title: "Custom Calculator"
+repo: "MakeSchool/mediabook-template"
+contentType: "TextContent"
+---
+
 # Custom Calculator 🧮
 
 ## Description

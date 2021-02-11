@@ -1,3 +1,9 @@
+---
+title: "Quiz 3"
+repo: "MakeSchool/mediabook-template"
+contentType: "TextContent"
+---
+
 # Quiz 3 Study Guide
 
 - Debugging

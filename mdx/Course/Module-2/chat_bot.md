@@ -1,3 +1,9 @@
+---
+title: "Chat Bot Project"
+repo: "MakeSchool/mediabook-template"
+contentType: "TextContent"
+---
+
 # Chat Bot 💬
 
 ## Description
