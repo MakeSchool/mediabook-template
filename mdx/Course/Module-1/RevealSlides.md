@@ -1,16 +1,21 @@
+---
+path: "/slides"
+title: "Slides"
+repo: "MakeSchool/mediabook-template"
+page: "slides"
+contentType: "Slides"
+host: "github"
+src: "BEW-1.1-RESTful-and-Resourceful-MVC-Architecture/Slides/01-Static-Website/README.html#/"
+---
 
-
-<section  data-markdown><script type="text/template">
-<!-- .slide: data-background="./../Images/header.svg" data-background-repeat="none" data-background-size="40% 40%" data-background-position="center 10%" class="header" -->
 # Static Websites
 
 ### [Slides](https://make-school-courses.github.io/BEW-1.1-RESTful-and-Resourceful-MVC-Architecture/Slides/01-Static-Website/README.html)
 
 ### [Demo](https://github.com/Make-School-Courses/BEW-1.1-RESTful-and-Resourceful-MVC-Architecture/tree/master/Lessons/01-Static-Website/demo)
 
-</script></section>
+---
 
-<section  data-markdown><script type="text/template">
 ## Agenda
 
 1. [Learning Outcomes](#learning-outcomes)
@@ -18,9 +23,9 @@
 1. [HTML Page Elements](#html-page-elements)
 1. [Activity: Form Elements](#activity-form-elements)
 1. [Developer Tools](#developer-tools)
-</script></section>
 
-<section  data-markdown><script type="text/template">
+---
+
 ## Learning Outcomes
 
 By the end of today, you should be able to…
@@ -29,29 +34,28 @@ By the end of today, you should be able to…
 1. Make a static web page using HTML
 1. Create a form to collect user data using HTML
 1. Use a browser’s developer tools to examine and change the HTML of a website
-</script></section>
+---
 
-<section  data-markdown><script type="text/template">
 ## Warm Up (5 minutes)
 
 Write a list of every HTML element you know, and its purpose. Write as many as you can!
 
 - E.g. `head`, `body`, `img`, etc
-</script></section>
+---
 
-<section ><section data-markdown><script type="text/template">
+
 # HTML Essentials
-</script></section>
+---
 
-<section data-markdown><script type="text/template">
+
 ## What is HTML?
 
 - **H**yper**T**ext **M**arkup **L**anguage
   - Not a programming language! No loops, conditionals, etc
 - Tells your browser how to structure content (text, images, links, etc)
-</script></section>
+---
 
-<section data-markdown><script type="text/template">
+
 ## Elements
 
 The fundamental building block of HTML is an **element**.
@@ -59,9 +63,9 @@ The fundamental building block of HTML is an **element**.
   - Or only a single tag
 
 Tags are enclosed in angle brackets ( `<` and `>` )
-</script></section>
+---
 
-<section data-markdown><script type="text/template">
+
 ## The Document Type Declaration
 
 At the top of every HTML page, we need to tell the browser what type of markup to expect.
@@ -71,9 +75,9 @@ At the top of every HTML page, we need to tell the browser what type of markup t
 ```
 
 - The **doctype** tag is technically not an element.
-</script></section>
+---
 
-<section data-markdown><script type="text/template">
+
 ## The `html` element
 
 All page content must go inside of the `html` start/close tags.
@@ -83,9 +87,9 @@ All page content must go inside of the `html` start/close tags.
 <html>
 </html>
 ```
-</script></section>
+---
 
-<section data-markdown><script type="text/template">
+
 ## The `head` element
 
 Content that doesn't directly relate to the way the page is laid out - including the styles and title - go inside of the `head` element.
@@ -98,9 +102,9 @@ Content that doesn't directly relate to the way the page is laid out - including
     </head>
 </html>
 ```
-</script></section>
+---
 
-<section data-markdown><script type="text/template">
+
 ## The `body` element
 
 The body contains all of the elements that will be displayed on the page itself.
@@ -116,9 +120,9 @@ The body contains all of the elements that will be displayed on the page itself.
     </body>
 </html>
 ```
-</script></section>
+---
 
-<section data-markdown><script type="text/template">
+
 ## Demo
 
 Let's put it all together! Save the code snippet below and open it in your browser.
@@ -134,19 +138,18 @@ Let's put it all together! Save the code snippet below and open it in your brows
     </body>
 </html>
 ```
-</script></section></section>
+---
 
-<section ><section data-markdown><script type="text/template">
 # HTML Page Elements
-</script></section>
+---
 
-<section data-markdown><script type="text/template">
+
 ## Anatomy of an HTML Element
 
 ![](assets/basic-anatomy-of-xhtml-elements.png)
-</script></section>
+---
 
-<section data-markdown><script type="text/template">
+
 ## Header Tags
 
 Headers are used to set apart page, section, etc. headers.
@@ -159,9 +162,9 @@ Headers are used to set apart page, section, etc. headers.
     <p>Dogs are cool because...</p>
 </body>
 ```
-</script></section>
+---
 
-<section data-markdown><script type="text/template">
+
 ## Paragraph Tags
 
 The paragraph tag `<p>` is used to indicate a paragraph of text.
@@ -172,9 +175,9 @@ The paragraph tag `<p>` is used to indicate a paragraph of text.
     <p>Dogs are cool because...</p>
 </body>
 ```
-</script></section>
+---
 
-<section data-markdown><script type="text/template">
+
 ## The Address Tag
 
 The address, or `<a>` tag, links to another web page.
@@ -184,9 +187,9 @@ The address, or `<a>` tag, links to another web page.
 ```html
 <a href="http://www.aspca.org">Adopt a Dog!</a>
 ```
-</script></section>
+---
 
-<section data-markdown><script type="text/template">
+
 ## The Image Tag
 
 The `img` element is a **self-closing tag**. We often end it with `/` to indicate such.
@@ -196,9 +199,9 @@ The `img` element is a **self-closing tag**. We often end it with `/` to indicat
 ```html
 <img src="http://makeschool.com/images/dog" alt="cute dog" />
 ```
-</script></section>
+---
 
-<section data-markdown><script type="text/template">
+
 ## Line Breaks
 
 We can add a **line break** like so:
@@ -206,9 +209,9 @@ We can add a **line break** like so:
 ```html
 <br />
 ```
-</script></section>
+---
 
-<section data-markdown><script type="text/template">
+
 ## Bold and Italics
 
 We can specify that text should be **bold** with the `strong` tag, or *italic* with the `em` (emphasize) tag.
@@ -218,9 +221,9 @@ We can specify that text should be **bold** with the `strong` tag, or *italic* w
     Dogs are <strong>fluffy</strong> and <em>playful</em>.
 </p>
 ```
-</script></section>
+---
 
-<section data-markdown><script type="text/template">
+
 ## List Items - Unordered
 
 We can make a bulleted **unordered list** with the `ul` tag, and add list items with the `li` tag.
@@ -234,9 +237,9 @@ We can make a bulleted **unordered list** with the `ul` tag, and add list items 
     </ul>
 </p>
 ```
-</script></section>
+---
 
-<section data-markdown><script type="text/template">
+
 ## List Items - Ordered
 
 We can also make an **ordered list**, starting from 1, with the `ol` tag.
@@ -252,27 +255,25 @@ We can also make an **ordered list**, starting from 1, with the `ol` tag.
     </ol>
 </p>
 ```
-</script></section></section>
+---
 
-<section  data-markdown><script type="text/template">
 ## Break [10 minutes]
-<!-- .slide: data-background="#087CB8" -->
 
-</script></section>
 
-<section ><section data-markdown><script type="text/template">
+---
+
 # HTML Forms
-</script></section>
+---
 
-<section data-markdown><script type="text/template">
+
 ## Why use forms?
 
 1. Collect data about the user<!-- .element: class="fragment" -->
 1. Ask the user a question<!-- .element: class="fragment" -->
 1. Login or registration forms<!-- .element: class="fragment" -->
-</script></section>
+---
 
-<section data-markdown><script type="text/template">
+
 ## A Simple Form
 
 ```html
@@ -283,9 +284,9 @@ We can also make an **ordered list**, starting from 1, with the `ol` tag.
   <input type='submit' value='Submit!'>
 </form>
 ```
-</script></section>
+---
 
-<section data-markdown><script type="text/template">
+
 ## Anatomy of a Form
 
 Form attributes:
@@ -296,9 +297,9 @@ Form attributes:
 ```html
 <form action='/results' method='GET'>
 ```
-</script></section>
+---
 
-<section data-markdown><script type="text/template">
+
 ## Anatomy of a Form
 
 Form element attributes:
@@ -310,13 +311,11 @@ Form element attributes:
 ```html
 <input type='text' name='favorite_color' value='blue'>
 ```
-</script></section></section>
-
-<section ><section data-markdown><script type="text/template">
+---
 # Activity: Form Elements
-</script></section>
+---
 
-<section data-markdown><script type="text/template">
+
 ## Jigsaw Activity [30 min]
 
 Get into groups of 4 or 5 and research a *specific* form element. Within your group, do the following:
@@ -326,9 +325,9 @@ Get into groups of 4 or 5 and research a *specific* form element. Within your gr
 - What *query string* results when you submit the form?
 
 *Every* person in the group *must* be able to present the findings!
-</script></section>
+---
 
-<section data-markdown><script type="text/template">
+
 ## Form elements
 
 - [select/option](https://www.w3schools.com/tags/att_select_form.asp)
@@ -338,34 +337,30 @@ Get into groups of 4 or 5 and research a *specific* form element. Within your gr
 - [date](https://www.w3schools.com/tags/att_input_type_date.asp)
 - [color](https://www.w3schools.com/tags/att_input_type_color.asp)
 
-</script></section>
+---
 
-<section data-markdown><script type="text/template">
 ## Jigsaw Activity Pt. 2
 
 Form expert groups around your table. Fill in the rest of your worksheet for *at least four* input elements.
-</script></section></section>
+---
 
-<section ><section data-markdown><script type="text/template">
 # Developer Tools
-</script></section>
+---
 
-<section data-markdown><script type="text/template">
 ## Demo
-</script></section></section>
+---
 
-<section  data-markdown><script type="text/template"><!-- .slide: data-background="#087CB8" -->
 
 ## Homework
 
 - [Homework 1](https://make-school-courses.github.io/BEW-1.1-RESTful-and-Resourceful-MVC-Architecture/#/Assignments/Weekly-Homework?id=homework-1): Due Monday, Oct. 28
 
-</script></section>
+---
 
-<section  data-markdown><script type="text/template">
 ## Resources
 
 - [HTML Basics](https://www.w3schools.com/html/html_basic.asp)
 - [HTML Form Elements](https://www.w3schools.com/html/html_form_elements.asp)
-- [Chrome Developer Tools](https://developers.google.com/web/tools/chrome-devtools)</script></section></div>
-    </div>
+- [Chrome Developer Tools](https://developers.google.com/web/tools/chrome-devtools)
+
+---

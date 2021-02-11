@@ -4,6 +4,8 @@ title: "Slides"
 repo: "MakeSchool/mediabook-template"
 page: "slides"
 contentType: "Slides"
+host: "google"
+src: "2PACX-1vSaK49FAkVLLgBAesp8GIh4lNIxnzO5EaoTc0B5mSrzcjcwJKZcFFjGHjTC6lsZxMaVWSY_7ADBN4GV"
 ---
 
 # Static Websites

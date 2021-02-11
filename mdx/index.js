@@ -19,9 +19,13 @@ export const modules = [{
     href: '/Module-1/Project',
   }, {
     id: 'Slides',
-    title: 'Slides',
+    title: 'Google Slides',
     href: '/Module-1/Slides',
   }, {
+    id: 'RevealSlides',
+    title: 'Reveal.js Slides',
+    href: '/Module-1/RevealSlides',
+  },{
     id: 'TextContent',
     title: 'Text Content',
     href: '/Module-1/TextContent',
