@@ -1,7 +1,13 @@
 export const modules = [{
   id: 'Module-1',
   title: 'Module 1',
-  pages: [{
+  pages: [
+    {
+      id: 'MultipleChoice',
+      title: 'Multiple Choice',
+      href: '/Module-1/MultipleChoice',
+    },
+    {
     id: 'Assessment',
     title: 'Assessment',
     href: '/Module-1/Assessment',
