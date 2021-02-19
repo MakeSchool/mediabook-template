@@ -8,6 +8,11 @@ export const modules = [{
       href: '/Module-1/MultipleChoice',
     },
     {
+      id: 'FlashCard',
+      title: "FlashCard",
+      href: "/Module-1/FlashCard"
+    },
+    {
     id: 'Assessment',
     title: 'Assessment',
     href: '/Module-1/Assessment',

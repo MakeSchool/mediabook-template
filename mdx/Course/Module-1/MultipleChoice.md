@@ -7,7 +7,7 @@ correct: 5
 contentType: "MultipleChoice"
 ---
 
-## How do you write a question component?
+## How do you write a multiple choice question component?
 
 Start with the prompt content.
 
