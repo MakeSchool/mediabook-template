@@ -1,5 +1,6 @@
 ---
 title: "Chat Bot Project"
+page: "chat-bot"
 repo: "MakeSchool/mediabook-template"
 contentType: "TextContent"
 ---
