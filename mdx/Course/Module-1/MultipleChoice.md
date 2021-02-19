@@ -3,7 +3,7 @@ path: "/multiple-choice"
 title: "Multiple Choice"
 repo: "MakeSchool/mediabook-template"
 page: "multiple-choice"
-correct: 5
+correctAnswer: 5
 contentType: "MultipleChoice"
 ---
 
