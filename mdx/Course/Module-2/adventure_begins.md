@@ -1,5 +1,6 @@
 ---
 title: "The Adventure Begins"
+page: "adventure"
 repo: "MakeSchool/mediabook-template"
 contentType: "TextContent"
 ---
