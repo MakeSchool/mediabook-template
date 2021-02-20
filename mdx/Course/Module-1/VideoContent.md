@@ -1,8 +1,6 @@
 ---
-path: "/video-content"
-title: "Video Content"
-repo: "MakeSchool/mediabook-template"
-page: "video-content"
-contentType: "VideoContent"
-contentSlug: "vmcA6BlSqw0"
+title: 'Video Content'
+slug: 'video-content'
+contentType: 'VideoContent'
+contentSrc: 'vmcA6BlSqw0'
 ---

@@ -1,7 +1,5 @@
 ---
-path: "/check-for-understanding"
-title: "Check For Understanding"
-repo: "MakeSchool/mediabook-template"
-page: "check-for-understanding"
-contentType: "CheckForUnderstanding"
+title: 'Check For Understanding'
+slug: 'check-for-understanding'
+contentType: 'CheckForUnderstanding'
 ---

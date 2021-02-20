@@ -1,11 +1,8 @@
 ---
-path: "/slides"
-title: "Slides"
-repo: "MakeSchool/mediabook-template"
-page: "slides"
-contentType: "Slides"
-host: "google"
-src: "2PACX-1vSaK49FAkVLLgBAesp8GIh4lNIxnzO5EaoTc0B5mSrzcjcwJKZcFFjGHjTC6lsZxMaVWSY_7ADBN4GV"
+title: 'Slides'
+slug: 'slides'
+contentType: 'GoogleSlides'
+contentSrc: '2PACX-1vSaK49FAkVLLgBAesp8GIh4lNIxnzO5EaoTc0B5mSrzcjcwJKZcFFjGHjTC6lsZxMaVWSY_7ADBN4GV'
 ---
 
 # Static Websites
@@ -34,6 +31,7 @@ By the end of today, you should be able to…
 1. Make a static web page using HTML
 1. Create a form to collect user data using HTML
 1. Use a browser’s developer tools to examine and change the HTML of a website
+
 ---
 
 ## Warm Up (5 minutes)
@@ -41,30 +39,29 @@ By the end of today, you should be able to…
 Write a list of every HTML element you know, and its purpose. Write as many as you can!
 
 - E.g. `head`, `body`, `img`, etc
----
 
+---
 
 # HTML Essentials
----
 
+---
 
 ## What is HTML?
 
 - **H**yper**T**ext **M**arkup **L**anguage
   - Not a programming language! No loops, conditionals, etc
 - Tells your browser how to structure content (text, images, links, etc)
----
 
+---
 
 ## Elements
 
 The fundamental building block of HTML is an **element**.
-  - Can have an opening and closing tag
-  - Or only a single tag
 
-Tags are enclosed in angle brackets ( `<` and `>` )
----
+- Can have an opening and closing tag
+- Or only a single tag
 
+## Tags are enclosed in angle brackets ( `<` and `>` )
 
 ## The Document Type Declaration
 
@@ -75,8 +72,8 @@ At the top of every HTML page, we need to tell the browser what type of markup t
 ```
 
 - The **doctype** tag is technically not an element.
----
 
+---
 
 ## The `html` element
 
@@ -84,26 +81,26 @@ All page content must go inside of the `html` start/close tags.
 
 ```html
 <!DOCTYPE html>
-<html>
-</html>
+<html></html>
 ```
----
 
+---
 
 ## The `head` element
 
-Content that doesn't directly relate to the way the page is laid out - including the styles and title - go inside of the `head` element.
+Content that doesn't directly relate to the way the page is laid out - including the styles and
+title - go inside of the `head` element.
 
 ```html
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>My Awesome Page Title</title>
-    </head>
+  <head>
+    <title>My Awesome Page Title</title>
+  </head>
 </html>
 ```
----
 
+---
 
 ## The `body` element
 
@@ -112,16 +109,16 @@ The body contains all of the elements that will be displayed on the page itself.
 ```html
 <!DOCTYPE html>
 <html>
-    <head>
-        ...
-    </head>
-    <body>
-        This will appear on the page.
-    </body>
+  <head>
+    ...
+  </head>
+  <body>
+    This will appear on the page.
+  </body>
 </html>
 ```
----
 
+---
 
 ## Demo
 
@@ -130,25 +127,24 @@ Let's put it all together! Save the code snippet below and open it in your brows
 ```html
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>My First Web Page</title>
-    </head>
-    <body>
-        Hello, World!
-    </body>
+  <head>
+    <title>My First Web Page</title>
+  </head>
+  <body>
+    Hello, World!
+  </body>
 </html>
 ```
+
 ---
 
 # HTML Page Elements
----
 
+---
 
 ## Anatomy of an HTML Element
 
-![](assets/basic-anatomy-of-xhtml-elements.png)
----
-
+## ![](assets/basic-anatomy-of-xhtml-elements.png)
 
 ## Header Tags
 
@@ -158,12 +154,12 @@ Headers are used to set apart page, section, etc. headers.
 
 ```html
 <body>
-    <h1>Why Dogs are Cool</h1>
-    <p>Dogs are cool because...</p>
+  <h1>Why Dogs are Cool</h1>
+  <p>Dogs are cool because...</p>
 </body>
 ```
----
 
+---
 
 ## Paragraph Tags
 
@@ -171,12 +167,12 @@ The paragraph tag `<p>` is used to indicate a paragraph of text.
 
 ```html
 <body>
-    <h1>Why Dogs are Cool</h1>
-    <p>Dogs are cool because...</p>
+  <h1>Why Dogs are Cool</h1>
+  <p>Dogs are cool because...</p>
 </body>
 ```
----
 
+---
 
 ## The Address Tag
 
@@ -187,8 +183,8 @@ The address, or `<a>` tag, links to another web page.
 ```html
 <a href="http://www.aspca.org">Adopt a Dog!</a>
 ```
----
 
+---
 
 ## The Image Tag
 
@@ -199,8 +195,8 @@ The `img` element is a **self-closing tag**. We often end it with `/` to indicat
 ```html
 <img src="http://makeschool.com/images/dog" alt="cute dog" />
 ```
----
 
+---
 
 ## Line Breaks
 
@@ -209,20 +205,19 @@ We can add a **line break** like so:
 ```html
 <br />
 ```
----
 
+---
 
 ## Bold and Italics
 
-We can specify that text should be **bold** with the `strong` tag, or *italic* with the `em` (emphasize) tag.
+We can specify that text should be **bold** with the `strong` tag, or _italic_ with the `em`
+(emphasize) tag.
 
 ```html
-<p>
-    Dogs are <strong>fluffy</strong> and <em>playful</em>.
-</p>
+<p>Dogs are <strong>fluffy</strong> and <em>playful</em>.</p>
 ```
----
 
+---
 
 ## List Items - Unordered
 
@@ -237,8 +232,8 @@ We can make a bulleted **unordered list** with the `ul` tag, and add list items 
     </ul>
 </p>
 ```
----
 
+---
 
 ## List Items - Ordered
 
@@ -255,37 +250,37 @@ We can also make an **ordered list**, starting from 1, with the `ol` tag.
     </ol>
 </p>
 ```
+
 ---
 
 ## Break [10 minutes]
 
-
 ---
 
 # HTML Forms
----
 
+---
 
 ## Why use forms?
 
 1. Collect data about the user<!-- .element: class="fragment" -->
 1. Ask the user a question<!-- .element: class="fragment" -->
 1. Login or registration forms<!-- .element: class="fragment" -->
----
 
+---
 
 ## A Simple Form
 
 ```html
-<form action='/results' method='GET'>
+<form action="/results" method="GET">
   What is your name?
-  <input type='text' name='firstname'>
-  <br>
-  <input type='submit' value='Submit!'>
+  <input type="text" name="firstname" />
+  <br />
+  <input type="submit" value="Submit!" />
 </form>
 ```
----
 
+---
 
 ## Anatomy of a Form
 
@@ -295,38 +290,40 @@ Form attributes:
 - `method`: Is it a GET or a POST request?
 
 ```html
-<form action='/results' method='GET'>
+<form action="/results" method="GET"></form>
 ```
----
 
+---
 
 ## Anatomy of a Form
 
 Form element attributes:
 
 - `type`: What type of data am I collecting (e.g. number vs. text), and in what format?
-- `name`: What *label* am I putting on the data? *Hint*: This is kind of like a variable name!
-- `value`: What is the *default value* of the form element?
+- `name`: What _label_ am I putting on the data? _Hint_: This is kind of like a variable name!
+- `value`: What is the _default value_ of the form element?
 
 ```html
-<input type='text' name='favorite_color' value='blue'>
+<input type="text" name="favorite_color" value="blue" />
 ```
----
-# Activity: Form Elements
+
 ---
 
+# Activity: Form Elements
+
+---
 
 ## Jigsaw Activity [30 min]
 
-Get into groups of 4 or 5 and research a *specific* form element. Within your group, do the following:
+Get into groups of 4 or 5 and research a _specific_ form element. Within your group, do the
+following:
 
 - Test out the form element in your browser. How does it work?
-- What *attributes* (such as `name`, `value`, etc) are required to use this form element? What do they do?
-- What *query string* results when you submit the form?
+- What _attributes_ (such as `name`, `value`, etc) are required to use this form element? What do
+  they do?
+- What _query string_ results when you submit the form?
 
-*Every* person in the group *must* be able to present the findings!
----
-
+## _Every_ person in the group _must_ be able to present the findings!
 
 ## Form elements
 
@@ -341,19 +338,20 @@ Get into groups of 4 or 5 and research a *specific* form element. Within your gr
 
 ## Jigsaw Activity Pt. 2
 
-Form expert groups around your table. Fill in the rest of your worksheet for *at least four* input elements.
----
+## Form expert groups around your table. Fill in the rest of your worksheet for _at least four_ input elements.
 
 # Developer Tools
+
 ---
 
 ## Demo
----
 
+---
 
 ## Homework
 
-- [Homework 1](https://make-school-courses.github.io/BEW-1.1-RESTful-and-Resourceful-MVC-Architecture/#/Assignments/Weekly-Homework?id=homework-1): Due Monday, Oct. 28
+- [Homework 1](https://make-school-courses.github.io/BEW-1.1-RESTful-and-Resourceful-MVC-Architecture/#/Assignments/Weekly-Homework?id=homework-1):
+  Due Monday, Oct. 28
 
 ---
 

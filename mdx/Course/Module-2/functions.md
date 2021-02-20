@@ -1,7 +1,7 @@
 ---
-title: "Functions"
-repo: "MakeSchool/mediabook-template"
-contentType: "TextContent"
+title: 'Functions'
+slug: 'functions'
+contentType: 'TextContent'
 ---
 
 <!-- .slide: data-background="./Images/header.svg" data-background-repeat="none" data-background-size="40% 40%" data-background-position="center 10%" class="header" -->
@@ -18,11 +18,14 @@ contentType: "TextContent"
 
 - **Repls:**
 
-  - Coding Exercise 1: [**https://repl.it/@MakeSchool/OurFirstFunction**](https://repl.it/@MakeSchool/OurFirstFunction)
-  - Coding Exercise 2: [**https://repl.it/@MakeSchool/FunctionPractice**](https://repl.it/@MakeSchool/FunctionPractice)
+  - Coding Exercise 1:
+    [**https://repl.it/@MakeSchool/OurFirstFunction**](https://repl.it/@MakeSchool/OurFirstFunction)
+  - Coding Exercise 2:
+    [**https://repl.it/@MakeSchool/FunctionPractice**](https://repl.it/@MakeSchool/FunctionPractice)
 
 **📖 &nbsp;After Class Review:**
 
-- **Class Notes:** [Function Class Notes](https://docs.google.com/document/d/1cil0F5FtuPBJbXqvNqUhr34pbd5ovgmVsoOQAh8GUFs/)
+- **Class Notes:**
+  [Function Class Notes](https://docs.google.com/document/d/1cil0F5FtuPBJbXqvNqUhr34pbd5ovgmVsoOQAh8GUFs/)
 
 <!-- > -->

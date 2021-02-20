@@ -1,15 +1,17 @@
 ---
-path: "/syllabus"
-title: "CS 1.0 Introduction to Programming"
-repo: "MakeSchool/mediabook-template"
-page: "syllabus"
+title: 'CS 1.0 Introduction to Programming'
+contentType: 'Syllabus'
+slug: ''
 ---
 
 # CS 1.0 Introduction to Programming
 
 ## Course Description
 
-This course covers the fundamentals of programming including variables, data types, conditionals, control flow, loops, lists, file input and output, and functions. Students will learn software development skills including writing pseudocode, drawing flowchart diagrams, problem solving, and debugging.
+This course covers the fundamentals of programming including variables, data types, conditionals,
+control flow, loops, lists, file input and output, and functions. Students will learn software
+development skills including writing pseudocode, drawing flowchart diagrams, problem solving, and
+debugging.
 
 ## Prerequisites
 
@@ -79,11 +81,16 @@ By the end of the course, you will be able to ...
 
 ## Assignment Submissions
 
-We will be using [Gradescope](gradescope.com), which allows us to provide fast and accurate feedback on your work. _All assigned work will be submitted through Gradescope, and assignment and exam grades will be returned through Gradescope._
+We will be using [Gradescope](gradescope.com), which allows us to provide fast and accurate feedback
+on your work. _All assigned work will be submitted through Gradescope, and assignment and exam
+grades will be returned through Gradescope._
 
-As soon as grades are posted, you will be notified immediately so that you can log in and see your feedback. You may also submit regrade requests if you feel we have made a mistake.
+As soon as grades are posted, you will be notified immediately so that you can log in and see your
+feedback. You may also submit regrade requests if you feel we have made a mistake.
 
-Your Gradescope login is your Make School email, and your password can be changed at [https://gradescope.com/reset_password](https://gradescope.com/reset_password). The same link can be used if you need to set your password for the first time.
+Your Gradescope login is your Make School email, and your password can be changed at
+[https://gradescope.com/reset_password](https://gradescope.com/reset_password). The same link can be
+used if you need to set your password for the first time.
 
 ## Evaluation
 
@@ -92,7 +99,8 @@ To pass this course you must meet the following requirements:
 - Pass all quizzes with a score 70% or higher.
 - Pass all required assignments with a 70% or higher.
 - All assignments are graded according to the associated assignment rubric.
-- If an assignment or quiz is not passing, you will need to request to receive a retake/extension to bring you score up to passing.
+- If an assignment or quiz is not passing, you will need to request to receive a retake/extension to
+  bring you score up to passing.
 - Actively participate in class and abide by the attendance policy.
 - Make up all classwork from all absences.
 
@@ -103,7 +111,8 @@ Instructors: 30 minutes before class.\
 TAs: To be announced.
 
 **Piazza:** \
-The best way to get answers is to ask questions! Ask questions on Piazza so everyone can benefit from the response. \
+The best way to get answers is to ask questions! Ask questions on Piazza so everyone can benefit from
+the response. \
 [Ask a question on Piazza →](https://make.sc/cs1.0-piazza)
 
 **CoWork:** \
@@ -112,17 +121,25 @@ _Tuesdays @ 12:45-1:45pm PST & Thursdays @ 1:30-2:30pm PST_
 
 ## Information Resources
 
-Any additional resources you may need (online books, etc.) can be found here. You can also find additional resources through the library linked below:
+Any additional resources you may need (online books, etc.) can be found here. You can also find
+additional resources through the library linked below:
 
 - [make.sc/library](http://make.sc/library)
 
 ## Make School Course Policies
 
-- [Program Learning Outcomes](https://make.sc/program-learning-outcomes) - What you will achieve after finishing Make School, all courses are designed around these outcomes.
+- [Program Learning Outcomes](https://make.sc/program-learning-outcomes) - What you will achieve
+  after finishing Make School, all courses are designed around these outcomes.
 - [Grading System](https://make.sc/grading-system) - How grading is done at Make School
-- [Code of Conduct, Equity, and Inclusion](https://make.sc/code-of-conduct) - Learn about Diversity and Inclusion at Make School
-- [Academic Honesty](https://make.sc/academic-honesty-policy) - Our policies around plagiarism, cheating, and other forms of academic misconduct
-- [Attendance Policy](https://make.sc/attendance-policy) - What we expect from you in terms of attendance for all classes at Make School
-- [Course Credit Policy](https://make.sc/course-credit-policy) - Our policy for how you obtain credit for your courses
-- [Disability Services (Academic Accommodations)](https://make.sc/disability-services) - Services and accommodations we provide for students
-- [Student Handbook](https://make.sc/student-handbook) - Guidelines, policies, and resources for all Make School students
+- [Code of Conduct, Equity, and Inclusion](https://make.sc/code-of-conduct) - Learn about Diversity
+  and Inclusion at Make School
+- [Academic Honesty](https://make.sc/academic-honesty-policy) - Our policies around plagiarism,
+  cheating, and other forms of academic misconduct
+- [Attendance Policy](https://make.sc/attendance-policy) - What we expect from you in terms of
+  attendance for all classes at Make School
+- [Course Credit Policy](https://make.sc/course-credit-policy) - Our policy for how you obtain
+  credit for your courses
+- [Disability Services (Academic Accommodations)](https://make.sc/disability-services) - Services
+  and accommodations we provide for students
+- [Student Handbook](https://make.sc/student-handbook) - Guidelines, policies, and resources for all
+  Make School students

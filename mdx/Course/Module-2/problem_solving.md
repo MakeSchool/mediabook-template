@@ -1,7 +1,7 @@
 ---
-title: "Problem Solving"
-repo: "MakeSchool/mediabook-template"
-contentType: "TextContent"
+title: 'Problem Solving'
+slug: 'problem-solving'
+contentType: 'TextContent'
 ---
 
 <!-- .slide: data-background="./Images/header.svg" data-background-repeat="none" data-background-size="40% 40%" data-background-position="center 10%" class="header" -->
@@ -17,6 +17,7 @@ contentType: "TextContent"
 - [**Slides**](https://docs.google.com/presentation/d/1wvaLm9HQB4q-15VhU3t-ZbR_xbIw1PiWdjzSvsoIoxQ/edit?usp=sharing)
 - **Repls:**
 
-  - Coding Exercise 1: [**https://repl.it/@MakeSchool/JambaJuice**](https://repl.it/@MakeSchool/JambaJuice)
+  - Coding Exercise 1:
+    [**https://repl.it/@MakeSchool/JambaJuice**](https://repl.it/@MakeSchool/JambaJuice)
 
 <!-- > -->

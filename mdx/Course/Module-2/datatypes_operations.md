@@ -1,7 +1,7 @@
 ---
-title: "Data Types and Operations"
-repo: "MakeSchool/mediabook-template"
-contentType: "TextContent"
+title: 'Data Types and Operations'
+slug: 'data-types-and-operations'
+contentType: 'TextContent'
 ---
 
 <!-- .slide: data-background="./Images/header.svg" data-background-repeat="none" data-background-size="40% 40%" data-background-position="center 10%" class="header" -->
@@ -18,12 +18,16 @@ contentType: "TextContent"
 - [**Worksheet**](https://docs.google.com/document/d/15bLc1rmHMl1mp7khr32wW7Cv3Gl8I97ZI4_RwWOLycc/copy)
 - **Repls:**
 
-  - Coding Exercise 1: [**https://repl.it/@MakeSchool/TypePractice**](https://repl.it/@MakeSchool/TypePractice)
-  - Coding Exercise 2: [**https://repl.it/@MakeSchool/ArithmeticOperators**](https://repl.it/@MakeSchool/ArithmeticOperators)
-  - Coding Exercise 3: [**https://repl.it/@MakeSchool/LetItBe**](https://repl.it/@MakeSchool/LetItBe)
+  - Coding Exercise 1:
+    [**https://repl.it/@MakeSchool/TypePractice**](https://repl.it/@MakeSchool/TypePractice)
+  - Coding Exercise 2:
+    [**https://repl.it/@MakeSchool/ArithmeticOperators**](https://repl.it/@MakeSchool/ArithmeticOperators)
+  - Coding Exercise 3:
+    [**https://repl.it/@MakeSchool/LetItBe**](https://repl.it/@MakeSchool/LetItBe)
 
 **📖 &nbsp;After Class Review:**
 
-- **Class Notes:** [Data Types and Operations Class Notes](https://docs.google.com/document/d/1DuaOvmpxZsNWZk1hs6eOr9EkYmR99SamxejT_ZTXjnk/edit?usp=sharing)
+- **Class Notes:**
+  [Data Types and Operations Class Notes](https://docs.google.com/document/d/1DuaOvmpxZsNWZk1hs6eOr9EkYmR99SamxejT_ZTXjnk/edit?usp=sharing)
 
 <!-- > -->

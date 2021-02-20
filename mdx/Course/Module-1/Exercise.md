@@ -1,10 +1,8 @@
 ---
-path: "/exercise"
-title: "Exercise"
-repo: "MakeSchool/mediabook-template"
-page: "exercise"
-contentType: "Exercise"
-contentSlug: "@MakeSchool/FirstCodingExample"
+title: 'Exercise'
+slug: 'exercise'
+contentType: 'Exercise'
+contentSrc: '@MakeSchool/FirstCodingExample'
 ---
 
 #Test

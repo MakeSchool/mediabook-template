@@ -1,14 +1,15 @@
 ---
-title: "Poetry Slam Project"
-repo: "MakeSchool/mediabook-template"
-contentType: "TextContent"
+title: 'Poetry Slam Project'
+slug: 'poetry-slam-project'
+contentType: 'TextContent'
 ---
 
 # Poetry Slam 📜
 
 ## Description
 
-In this project, we will write a Python program to print out poetry backwards, randomly, and any way you can rearrange!
+In this project, we will write a Python program to print out poetry backwards, randomly, and any way
+you can rearrange!
 
 By reading a poem in news ways, we can discover new meanings or invite new interpretations.
 
@@ -28,9 +29,11 @@ By completing this project, you should be able to…
 
 ## Set Up:
 
-🚨 Before starting the assignment, watch [How to: Setup for a New Assignment](https://youtu.be/MCbDO8IpqZM).
+🚨 Before starting the assignment, watch
+[How to: Setup for a New Assignment](https://youtu.be/MCbDO8IpqZM).
 
-This tutorial walks your through how to set up a new repository, make commits, and push code to Github.
+This tutorial walks your through how to set up a new repository, make commits, and push code to
+Github.
 
 ## Requirements
 
@@ -39,8 +42,10 @@ This tutorial walks your through how to set up a new repository, make commits, a
 1. Your submitted code should be in a new (public) repo on Github.
 1. Your respository should have a minimum of **5 commits**.
 1. Your repo should include a README with the name of your project and a description.
-1. Create a demo video. The demo should include a walkthrough of your code and demonstration of how your bot working.
-1. [Optional] Upload your video to Google Drive and share a link if Gradescope upload speeds are too slow.
+1. Create a demo video. The demo should include a walkthrough of your code and demonstration of how
+   your bot working.
+1. [Optional] Upload your video to Google Drive and share a link if Gradescope upload speeds are too
+   slow.
 1. Submit the link to your repo and demo on Gradescope.
 
 ### Assignment Requirements:
@@ -53,8 +58,10 @@ This tutorial walks your through how to set up a new repository, make commits, a
 
 1) Create a function called `lines_printed_backwards()`:
 
-   - It should have 1 parameter called `lines_list`, which is a list of strings containing lines of your poem.
-   - It should `print` the lines of the poem in reverse. Include the original line number at the beginning of each line.
+   - It should have 1 parameter called `lines_list`, which is a list of strings containing lines of
+     your poem.
+   - It should `print` the lines of the poem in reverse. Include the original line number at the
+     beginning of each line.
 
      For example, if you poem is Remember by Joy Harjo:
 
@@ -122,34 +129,44 @@ This tutorial walks your through how to set up a new repository, make commits, a
 
 1) Create a function called `lines_printed_random()`:
 
-   - It should have 1 parameter called `lines_list`, which is a list of strings containing lines of your poem.
-   - It should `print` the lines of your poem in randomly order. **Repeats** are ok, but make sure the number of lines printed is equal to the original lines in the poem (Line numbers do not need to be printed.) Hint: try using a loop and `randint()` from the `random` module.
+   - It should have 1 parameter called `lines_list`, which is a list of strings containing lines of
+     your poem.
+   - It should `print` the lines of your poem in randomly order. **Repeats** are ok, but make sure
+     the number of lines printed is equal to the original lines in the poem (Line numbers do not
+     need to be printed.) Hint: try using a loop and `randint()` from the `random` module.
 
 1) Create a function called `lines_printed_custom()`:
 
-   - It should minimally have 1 parameter called `lines_list`, which is a list of strings containing lines of your poem.
+   - It should minimally have 1 parameter called `lines_list`, which is a list of strings containing
+     lines of your poem.
    - It should print the poem in a unique way, be creative!
    - Make sure that you carefully comment your custom function so it's clear what it does.
 
-1) Your final submitted code should use the four functions (`get_file_lines()`, `lines_printed_backwards()`, `lines_printed_random()`, and `lines_printed_custom()`) you wrote. It should print out the poem contained in your text file backwards, random, and custom to the terminal.
+1) Your final submitted code should use the four functions (`get_file_lines()`,
+   `lines_printed_backwards()`, `lines_printed_random()`, and `lines_printed_custom()`) you wrote.
+   It should print out the poem contained in your text file backwards, random, and custom to the
+   terminal.
 
 1) The class session after this assignment is due we will have an optional poetry reading in class!
 
 ### Stretch Requirements/Challenges (Optional)
 
 1. Modify your program to write your poems to a file.
-1. Modify your program to have a menu that the user can select from rather than printing all the options at once
+1. Modify your program to have a menu that the user can select from rather than printing all the
+   options at once
 1. Modify your program to read the poem from user input
 1. Modify your program to randomly rearrange the words on each line
 
 ## Rubric
 
-This project will be graded using the [Poetry Slam Rubric](https://docs.google.com/document/d/1pXQeuD7R4ZRCjPQLvnVSdyCiAwOz5qDPXTxAgNS_2rM/copy)
+This project will be graded using the
+[Poetry Slam Rubric](https://docs.google.com/document/d/1pXQeuD7R4ZRCjPQLvnVSdyCiAwOz5qDPXTxAgNS_2rM/copy)
 
 ## Resources
 
 Additional resources that will help with this project, or that can be used as reference
 
-- [Poems by Joy Harjo](https://poets.org/poem/remember-0), the first native american poet laureate in the U.S.
+- [Poems by Joy Harjo](https://poets.org/poem/remember-0), the first native american poet laureate
+  in the U.S.
 - [DetoNationxs by Ocean Vuong](https://www.poetryfoundation.org/poetrymagazine/poems/56768/detonation)
 - [Harlem Renaissance Poems](https://education.cu-portland.edu/blog/classroom-resources/harlem-renaissance-poets-for-your-reading-list/)
