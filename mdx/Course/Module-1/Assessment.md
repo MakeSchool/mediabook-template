@@ -6,9 +6,11 @@ page: "assessment"
 contentType: "Assessment"
 ---
 
-## Assessment
+# Assessment
 
 We have a few different types of questions and syntaxes for asking them.
+
+## First, the venerable FlashCard
 
 <FlashCard>
   <Prompt>
@@ -50,6 +52,8 @@ Note that newlines are needed for embedding mdx inside of React.
  prompt={"How do you assign a variable in python? Draw it out."}
  explanation={"You use the assignment operator, ="}
 />
+
+## Next, the slightly more complicated MultipleChoice component
 
 <MultipleChoice>
   <Prompt>
@@ -111,3 +115,34 @@ There is an explanation. It doesn't get passed as a prop - it's just whatever te
 It'll only show after the student checks their answer.
 
 </MultipleChoice>
+
+## We also have a TextResponse component
+
+<TextResponse
+  prompt={"What excites you about learning to code?"}
+  explanation={"Thanks for sharing."}
+/>
+
+<TextResponse>
+  <Prompt>
+
+In your own words, what is a variable in python?
+
+Prompt for the text response component, can use markdown
+
+  </Prompt>
+
+  <Explanation>
+
+Variables are a way to give a value a name you can use later.
+
+There's lots of valid ways to explain variables.
+
+Some common analogies are:
+
+- a box or bucket where you can put a value
+- a nametag for an item
+- an envelope to put a value in
+
+</Explanation>
+</TextResponse>
