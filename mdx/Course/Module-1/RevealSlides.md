@@ -1,6 +1,6 @@
 ---
-title: 'Slides'
-slug: 'slides'
+title: 'Reveal Slides'
+slug: 'reveal-slides'
 contentType: 'HTMLSlides'
 contentSrc: 'BEW-1.1-RESTful-and-Resourceful-MVC-Architecture/Slides/01-Static-Website/README.html#/'
 ---
