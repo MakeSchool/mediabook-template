@@ -10,7 +10,6 @@ contentType: "Assessment"
 
 We have a few different types of questions and syntaxes for asking them.
 
-
 ## First, the venerable FlashCard
 
 <FlashCard>
@@ -28,6 +27,9 @@ x = 10
   </Answer>
 </FlashCard>
 
+If you want the student to self-assess whether they got the flashcard right, add a `<SelfCheck/>` component.
+
+
 <FlashCard>
 <Prompt>
 
@@ -41,17 +43,21 @@ Try creating one inline in your mdx. See if you can style
 <Answer>
 
 Use a shortcode in mdx and either:
-  - pass props
-  - use Prompt and Answer subcomponents
+- pass props
+- use Prompt and Answer subcomponents
 
 Note that newlines are needed for embedding mdx inside of React.
 
 </Answer>
+<SelfCheck />
 </FlashCard>
+
+The prompt, explanation, and self-check can all be props. Prompt and explanation are required, one way or the other. Self-check is optional.
 
 <FlashCard
  prompt={"How do you assign a variable in python? Draw it out."}
- explanation={"You use the assignment operator, ="}
+ explanation={"You use the assignment operator ="}
+ selfcheck={<SelfCheck/>}
 />
 
 ## Next, the slightly more complicated MultipleChoice component
@@ -146,6 +152,7 @@ Some common analogies are:
 - an envelope to put a value in
 
 </Explanation>
+<SelfCheck />
 </TextResponse>
 
 ## Confidence Check
