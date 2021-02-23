@@ -10,6 +10,7 @@ contentType: "Assessment"
 
 We have a few different types of questions and syntaxes for asking them.
 
+
 ## First, the venerable FlashCard
 
 <FlashCard>
@@ -146,3 +147,20 @@ Some common analogies are:
 
 </Explanation>
 </TextResponse>
+
+## Confidence Check
+
+Allow the student to react with how they are feeling.
+
+<ConfidenceCheck />
+
+<ConfidenceCheck prompt="How are you feeling about python syntax?" />
+
+An empty `prompt` prop will render a check without a prompt
+(this text is in the markdown above the component)
+
+<ConfidenceCheck prompt="" />
+
+<ConfidenceCheck>
+  How are you feeling about shortcodes?
+</ConfidenceCheck>
