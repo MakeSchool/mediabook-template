@@ -1,8 +1,7 @@
 ---
-title: "The Adventure Begins"
-page: "adventure"
-repo: "MakeSchool/mediabook-template"
-contentType: "TextContent"
+title: 'The Adventure Begins'
+slug: 'adventure'
+contentType: 'TextContent'
 ---
 
 <!-- .slide: data-background="./Images/header.svg" data-background-repeat="none" data-background-size="40% 40%" data-background-position="center 10%" class="header" -->
@@ -18,6 +17,7 @@ contentType: "TextContent"
 - [**Slides**](https://docs.google.com/presentation/d/1mYbYg1Unrq1kc_65qGfW2c003AqSI0uPtn16Xb53lKw/edit#slide=id.p)
 - **Repls:**
 
-  - Coding Exercise 1: [**https://repl.it/@MakeSchool/FirstCodingExample**](https://repl.it/@MakeSchool/FirstCodingExample)
+  - Coding Exercise 1:
+    [**https://repl.it/@MakeSchool/FirstCodingExample**](https://repl.it/@MakeSchool/FirstCodingExample)
 
 <!-- > -->

@@ -1,13 +1,14 @@
 ---
-title: "Quiz 3"
-repo: "MakeSchool/mediabook-template"
-contentType: "TextContent"
+title: 'Quiz 3'
+slug: 'quiz-3'
+contentType: 'TextContent'
 ---
 
 # Quiz 3 Study Guide
 
 - Debugging
-  - Be able to debug a given code snippet and identify what the problem is as well as a potential solution
+  - Be able to debug a given code snippet and identify what the problem is as well as a potential
+    solution
 - File I/O
   - Be able to open, read, write, and close a file
 - Dictionaries

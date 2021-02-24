@@ -1,10 +1,8 @@
 ---
-path: "/multiple-choice"
 title: "Multiple Choice"
-repo: "MakeSchool/mediabook-template"
-page: "multiple-choice"
-correctAnswer: 5
+slug: "multiple-choice"
 contentType: "MultipleChoice"
+correctAnswer: 5
 ---
 
 ## How do you write a question component?

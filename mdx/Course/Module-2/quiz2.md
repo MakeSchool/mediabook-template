@@ -1,13 +1,12 @@
 ---
-title: "Quiz 2"
-repo: "MakeSchool/mediabook-template"
-contentType: "TextContent"
+title: 'Quiz 2'
+slug: 'quiz-2'
+contentType: 'TextContent'
 ---
 
 # Quiz 2 Study Guide
 
-- Boolean expressions
-  -Be able to evaluate boolean expressions as either True or False
+- Boolean expressions -Be able to evaluate boolean expressions as either True or False
 - Conditionals
   - Be able to write an if statement
   - Be able to write an if elif else statement

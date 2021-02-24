@@ -1,7 +1,7 @@
 ---
-title: "Lists"
-repo: "MakeSchool/mediabook-template"
-contentType: "TextContent"
+title: 'Lists'
+slug: 'lists'
+contentType: 'TextContent'
 ---
 
 <!-- .slide: data-background="./Images/header.svg" data-background-repeat="none" data-background-size="40% 40%" data-background-position="center 10%" class="header" -->
@@ -16,8 +16,11 @@ contentType: "TextContent"
 
 - [**Slides**](https://docs.google.com/presentation/d/149BT-FQTgYIrJ4NZzcHc6C37QcOZ3MweP9Cg6JC_REY/edit?usp=sharing)
 - **Repls:**
-  - Coding Exercise 1: [**https://repl.it/@MakeSchool/CreateLists**](https://repl.it/@MakeSchool/CreateLists)
-  - Coding Exercise 2: [**https://repl.it/@MakeSchool/JessJoiDogKennel**](https://repl.it/@MakeSchool/JessJoiDogKennel)
-  - Coding Exercise 3: [**https://repl.it/@MakeSchool/KittyKennel**](https://repl.it/@MakeSchool/KittyKennel)
+  - Coding Exercise 1:
+    [**https://repl.it/@MakeSchool/CreateLists**](https://repl.it/@MakeSchool/CreateLists)
+  - Coding Exercise 2:
+    [**https://repl.it/@MakeSchool/JessJoiDogKennel**](https://repl.it/@MakeSchool/JessJoiDogKennel)
+  - Coding Exercise 3:
+    [**https://repl.it/@MakeSchool/KittyKennel**](https://repl.it/@MakeSchool/KittyKennel)
 
 <!-- > -->
